@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 import Link from "next/link";
-import { Birdhouse, Headset, Mail, Menu, X } from "lucide-react";
+import { Building2, Headset, Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3 cursor-pointer">
             <div className="w-12 h-12 rounded-lg flex items-center justify-center bg-blue-50 shadow-sm transform hover:scale-105 transition-transform">
-              <Birdhouse className="text-2xl text-blue-600" />
+              <Building2 className="text-2xl text-blue-600" />
             </div>
             <div>
               <h1 className="text-xl sm:text-2xl font-bold text-slate-800 leading-tight">

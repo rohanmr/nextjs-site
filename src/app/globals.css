@@ -18,3 +18,11 @@
     --foreground: #ededed;
   }
 }
+
+.gradient-text {
+  background: linear-gradient(90deg, #00aaa7, #7e42a7, #6070fd, #2a46ff, #0099ff, #008ead);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+
+}

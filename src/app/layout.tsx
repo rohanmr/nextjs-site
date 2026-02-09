@@ -34,7 +34,7 @@ export default function RootLayout({
         className={`${poppins.variable} ${geistSans.variable} ${geistMono.variable}`}
       >
         <Navbar />
-        <main className="py-18">{children}</main>
+        <main className="pt-18">{children}</main>
         <Footer />
       </body>
     </html>
